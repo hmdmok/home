@@ -1,0 +1,21 @@
+div img {
+	width: 400px;
+	margin: 20px;
+	transition: transform 1s;
+	}
+img:hover {
+	transform: scale(1.2);
+}
+div {
+	display: flex;
+flex-wrap: wrap;
+
+justify-content: center;
+
+}
+p.clear , footer {
+	clear: both;
+}
+p {
+	font-size: 20px;
+}
